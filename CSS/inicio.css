@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+canvas{ 
+    background-color: black;
+    position:absolute; 
+    top:0;bottom:0;right:0;left:0; 
+    margin:auto; 
+    border-radius: 50px;
+    border:  20px double white;
+   } 
+
+   #link_jogar{
+    /*Inicia oculto*/
+    display: none;
+    
+    /*Cores e fundo*/
+    color:yellow;
+    background: url(IMG/Jogar.png);
+    
+    /*Fonte*/
+    font-size: 20px;
+    font-family: sans-serif;
+    
+    /*Sem sublinhado e com sombra*/
+    text-decoration: none;
+    text-shadow: 2px 2px 5px black;
+    
+    /*Posicionamento*/
+    position:absolute;
+    left: 220px;
+    top: 330px;
+    
+    /*A imagem do botão é 72x72, descontamos os paddings*/
+    width: 52px;
+    height: 52px;
+    padding: 23px 10px;
+    }
