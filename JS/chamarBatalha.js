@@ -33,13 +33,13 @@ function EntrandoBatalha(){
     //retangulo esquerda
     ctx.beginPath();
     ctx.rect(0,0,canvas.width/2,altura);
-    ctx.fillStyle = "purple";
+    ctx.fillStyle = "#9C2780";
     ctx.fill();
     ctx.closePath();
     //retangulo direita
     ctx.beginPath();
     ctx.rect(canvas.width/2,canvas.height-altura,canvas.width/2,altura);
-    ctx.fillStyle = "purple";
+    ctx.fillStyle = "#9C2780";
     ctx.fill();
     ctx.closePath();
 

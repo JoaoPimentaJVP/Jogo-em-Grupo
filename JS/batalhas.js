@@ -177,14 +177,14 @@ function Cenabatalha(){
         if(morreu==0){
             ctx.beginPath();
             ctx.rect(60,300,vidaSua,10);
-            ctx.fillStyle = "yellow";
+            ctx.fillStyle = "#FFFF00";
             ctx.fill();
             ctx.closePath(); 
         }
         //vida inimiga
         ctx.beginPath();
         ctx.rect(470,posicaoVida,vidaInimiga,10);
-        ctx.fillStyle = "red";
+        ctx.fillStyle = "#FF0000";
         ctx.fill();
         ctx.closePath();
     }

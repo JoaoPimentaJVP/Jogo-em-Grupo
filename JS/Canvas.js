@@ -84,7 +84,7 @@ function desenhar(){
             ctx.globalAlpha=transparencia;
             ctx.beginPath();
             ctx.rect(0,0,800,500);
-            ctx.fillStyle = "black";
+            ctx.fillStyle = "#000000";
             ctx.fill();
             ctx.closePath;
             ctx.globalAlpha=1;
